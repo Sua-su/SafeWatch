@@ -24,3 +24,6 @@ violations/
 Thumbs.db
 .vscode/
 .idea/
+
+# ===== 학습 스크립트가 PC마다 새로 만드는 설정 파일 =====
+training/fire_data.yaml
