@@ -1,0 +1,6 @@
+# Intel Mac(macOS 13) 개발용 - 이 Mac에서 쓸 수 있는 torch가 2.2.2까지라서 버전 고정
+ultralytics
+torch==2.2.2
+numpy<2
+opencv-python==4.10.0.84
+contourpy<1.4

@@ -3,8 +3,12 @@
 - 사람이 안전모 '와' 안전조끼를 둘 다 착용해야 정상(OK).
   둘 중 하나라도 없으면 릴레이를 켜서 경고등을 울린다.
 - 경고가 켜질 때 사진과 시간을 violations/ 폴더에 저장한다.
-- 실행: cd ~/safety && source venv/bin/activate
-        DISPLAY=:0 QT_QPA_PLATFORM=xcb python safety_alarm.py
+- 처음 설치 (라즈베리파이):
+        git clone https://github.com/Sua-su/SafeWatch.git ~/SafeWatch
+        cd ~/SafeWatch && python3 -m venv venv && source venv/bin/activate
+        pip install -r requirements.txt
+- 실행: cd ~/SafeWatch && source venv/bin/activate
+        DISPLAY=:0 QT_QPA_PLATFORM=xcb python ppl.py
 - 종료: 영상 창에서 q 키, 또는 터미널에서 Ctrl + C
 """
 import csv
