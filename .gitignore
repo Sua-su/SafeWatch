@@ -1,0 +1,26 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===== 가상환경 =====
+venv/
+.venv/
+env/
+
+# ===== 환경변수 / 비밀정보 =====
+.env
+.env.*
+
+# ===== 실행 결과물 (위반 사진·기록) =====
+violations/
+
+# ===== OS / 에디터 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
